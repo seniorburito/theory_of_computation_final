@@ -197,6 +197,7 @@ def genetic(cit):
 	
 	print("Generation: " + str(generation) + " fitness: " + str(population[0].fitness))
 	print(population[0].chromosome) 
+	return population[0].chromosome
 
 
 
